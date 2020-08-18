@@ -23,22 +23,33 @@ public class Solution12915 {
 
         String[] answer = {};
 
-        Arrays.sort(strings, new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
+        for(int i=0;i< strings.length;i++){
+            for(int j=i+1;j< strings.length;j++){
 
-                int comp = o1.charAt(n) - o2.charAt(n);
+                int gap = strings[i].charAt(n) - strings[j].charAt(n);
 
-                if(comp == 0){
-                    for(int i=n+1;i<o1.length();i++){
-                        if(comp != 0){
-                            return comp;
+                if(gap == 0){
+                    int len = strings[i].length() >= strings[j].length() ? strings[j].length() : strings[i].length();
+                    for(int z=0;z<len;z++){
+
+                        int subGap = strings[i].charAt(z) - strings[j].charAt(z);
+
+                        if(subGap > 0){
+                            String tmp = strings[j];
+                            strings[j] = strings[i];
+                            strings[i] = tmp;
+                            break;
+                        }else if(subGap < 0){
+                            break;
                         }
                     }
+                }else if(gap > 0){
+                    String tmp = strings[j];
+                    strings[j] = strings[i];
+                    strings[i] = tmp;
                 }
-                return comp;
             }
-        });
+        }
 
         answer = strings;
 
