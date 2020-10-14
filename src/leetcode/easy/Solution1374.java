@@ -1,6 +1,5 @@
-package leetcode;
+package leetcode.easy;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 // 1374. Generate a String With Characters That Have Odd Counts

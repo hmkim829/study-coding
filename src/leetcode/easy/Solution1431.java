@@ -1,6 +1,4 @@
-package leetcode;
-
-import com.sun.org.apache.xpath.internal.operations.Bool;
+package leetcode.easy;
 
 import java.util.ArrayList;
 import java.util.List;

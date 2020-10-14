@@ -1,8 +1,7 @@
-package leetcode;
+package leetcode.easy;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 // 1389. Create Target Array in the Given Order

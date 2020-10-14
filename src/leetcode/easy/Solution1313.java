@@ -1,9 +1,6 @@
-package leetcode;
+package leetcode.easy;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 // 1313. Decompress Run-Length Encoded List
 // https://leetcode.com/problems/decompress-run-length-encoded-list/
