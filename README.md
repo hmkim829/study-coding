@@ -1,4 +1,4 @@
-## Algorithm 문제풀이 src
+# Algorithm 문제풀이
 
 * 백준
 * 프로그래머스
