@@ -9,3 +9,4 @@
     - Meeting Rooms
     - Move Zeros
     - Two Sum
+    - Daily Temperatures
