@@ -10,3 +10,5 @@
     - Move Zeros
     - Two Sum
     - Daily Temperatures
+    - Merge Intervals
+    - Meeting Rooms2
