@@ -12,3 +12,6 @@
     - Daily Temperatures
     - Merge Intervals
     - Meeting Rooms2
+    - Jewels And Stones
+    - LicenseKey Formatting
+  
