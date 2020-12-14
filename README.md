@@ -14,4 +14,5 @@
     - Meeting Rooms2
     - Jewels And Stones
     - LicenseKey Formatting
+    - K Closest Points to Origin
   
