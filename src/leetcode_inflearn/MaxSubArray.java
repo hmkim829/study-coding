@@ -14,12 +14,17 @@ public class MaxSubArray {
     public int maxSubArray(int[] nums) {
 
         int[] result = new int[nums.length];
+        int max = nums[0];
 
         result[0] = nums[0];
         for(int i=1;i<nums.length;i++){
-            result[i] = Math.max(result[i-1]+nums[i], nums[i]);
+            int a = result[i-1] + nums[i];
+            int b = nums[i];
+            result[i] = Math.max(a, b);
+
+            max = Math.max(result[i], max);
         }
 
-        return result[result.length-1];
+        return max;
     }
 }
