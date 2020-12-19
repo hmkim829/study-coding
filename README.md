@@ -18,3 +18,6 @@
     - [Plus One](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/PlusOne.java)
     - [Unique Email Addresses](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/UniqueEmailAddresses.java)
     - [Longest Substring with At Most Two Distinct Characters](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/LongestSubMostTwoDist.java)
+    - [Maximum Subarray](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/MaxSubArray.java)
+    - [Find Anagram Mappings](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/FindAnagramMapping.java)
+    - [Find All Anagrams in a String](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/FindAllAnagrams.java)
