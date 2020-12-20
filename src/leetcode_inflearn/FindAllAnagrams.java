@@ -31,7 +31,6 @@ public class FindAllAnagrams {
                 list.add(i);
             }
         }
-
         return list;
     }
 
