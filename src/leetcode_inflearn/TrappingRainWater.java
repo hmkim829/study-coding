@@ -13,8 +13,9 @@ public class TrappingRainWater {
 
     public int trap(int[] height) {
 
+        int result = 0;
 
 
-        return 0;
+        return result;
     }
 }
