@@ -33,4 +33,7 @@
 - Queue&Stack
     - [Baseball Game](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/BaseballGame.java)
     - [Valid Parentheses](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/ValidParentheses.java)
-    - [Binary Tree Level Order Traversal](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/BinaryTreeLevelOrderTraversal.java)      
+    - [Binary Tree Level Order Traversal](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/BinaryTreeLevelOrderTraversal.java)
+- Graph(dfs & bfs)
+  - [Number of Islands DFS](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/NumberOfIsland_dfs.java)
+  - [Number of Islands BFS](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/NumberOfIsland_bfs.java)
