@@ -39,4 +39,4 @@
     - [Max Area of Island](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/MaxAreaOfIslands.java)
 
 ### 프로그래머스
-  - [두 개 뽑아서 더하기](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/TwoNumbersPlus.java)
+  - [두 개 뽑아서 더하기](https://github.com/hmkim829/Algorithm/blob/master/src/programmers/TwoNumbersPlus.java)
