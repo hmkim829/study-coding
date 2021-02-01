@@ -19,6 +19,9 @@ public class WordLadder {
 
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
 
+        if(wordList == null || !wordList.contains(endWord))
+            return 0;
+
         Queue<String> queue = new LinkedList<>();
         Set<String> dict = new HashSet<>(wordList);
         queue.offer(beginWord);
@@ -31,7 +34,7 @@ public class WordLadder {
             for(int i=0;i<size;i++){
                 String str = queue.poll();
                 if(str.equals(endWord)) return  level;
-                for(String neighbor : neighbors(str, wordList)){
+                for(String neighbor : neighbors(str, dict)){
                     queue.offer(neighbor);
                 }
             }
@@ -40,10 +43,9 @@ public class WordLadder {
         return 0;
     }
 
-    private List<String> neighbors(String s, List<String> wordList) {
+    private List<String> neighbors(String s, Set<String> dict) {
 
         List<String> res = new LinkedList<>();
-        Set<String> dict = new HashSet<>(wordList);
 
         for(int i=0;i<s.length();i++){
             char[] chars = s.toCharArray();
