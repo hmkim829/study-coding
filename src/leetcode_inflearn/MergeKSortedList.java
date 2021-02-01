@@ -35,7 +35,6 @@ public class MergeKSortedList {
             cloneNode = cloneNode.next;
             if(node.next != null){
                 queue.offer(node.next);
-                queue.offer(node.next);
             }
         }
 
