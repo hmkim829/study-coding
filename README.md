@@ -41,6 +41,8 @@
     - [Word Search](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/WordSearch.java)   
 - Dynamic Programming
     - [Unique Paths](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/UniquePath.java)
+- BackTracking
+    - [Generate Parentheses](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/GenerateParentheses.java)
   
 ### 프로그래머스
   - [두 개 뽑아서 더하기](https://github.com/hmkim829/Algorithm/blob/master/src/programmers/TwoNumbersPlus.java)
