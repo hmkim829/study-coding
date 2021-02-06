@@ -1,5 +1,7 @@
 package leetcode_inflearn;
 
+import util.TreeNode;
+
 // 104. Maximum Depth of Binary Tree
 // https://leetcode.com/problems/maximum-depth-of-binary-tree/
 public class MaxDepth_recur {

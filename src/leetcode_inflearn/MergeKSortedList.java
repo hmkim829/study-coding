@@ -1,5 +1,7 @@
 package leetcode_inflearn;
 
+import util.ListNode;
+
 import java.util.PriorityQueue;
 
 // 23. Merge k Sorted Lists

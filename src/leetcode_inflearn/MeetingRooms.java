@@ -1,22 +1,9 @@
 package leetcode_inflearn;
 
+import util.Interval;
+
 import java.util.Arrays;
 import java.util.Comparator;
-
-class Interval{
-    int start;
-    int end;
-
-    void Integer(){
-        this.start = 0;
-        this.end = 0;
-    }
-
-    Interval(int s, int e){
-        this.start = s;
-        this.end = e;
-    }
-}
 
 public class MeetingRooms {
 

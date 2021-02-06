@@ -1,5 +1,7 @@
 package leetcode_inflearn;
 
+import util.TreeNode;
+
 import java.util.Stack;
 
 // 104. Maximum Depth of Binary Tree
