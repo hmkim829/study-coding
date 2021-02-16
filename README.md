@@ -38,7 +38,8 @@
     - [Maximum Depth of Binary Tree BFS](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/MaxDepth_bfs.java)
     - [Max Area of Island](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/MaxAreaOfIslands.java)
     - [Word Ladder](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/WordLadder.java)
-    - [Word Search](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/WordSearch.java)   
+    - [Word Search](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/WordSearch.java)
+    - [Remove Invalid Parentheses](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/RemoveInvalidParentheses.java)
 - Dynamic Programming
     - [Unique Paths](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/UniquePath.java)
 - BackTracking
