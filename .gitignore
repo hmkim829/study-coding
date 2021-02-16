@@ -1,3 +1,7 @@
 # Project exclude paths
 /out/
 .idea
+
+#패키지
+leetcode_review01
+nexon
