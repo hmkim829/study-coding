@@ -43,6 +43,7 @@
 - Dynamic Programming
     - [Unique Paths](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/UniquePath.java)
     - [Coin Change](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/CoinChange.java)
+    - [Coin Change](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/ClimbStairs.java)
 - BackTracking
     - [Generate Parentheses](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/GenerateParentheses.java)
     - [Permutation](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/Permutation.java)
