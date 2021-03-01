@@ -44,6 +44,7 @@
     - [Unique Paths](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/UniquePath.java)
     - [Coin Change](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/CoinChange.java)
     - [Climbing Stairs](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/ClimbStairs.java)
+    - [Longest Increasing Subsequence](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/LongestIncreasingSubsequence.java)
 - BackTracking
     - [Generate Parentheses](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/GenerateParentheses.java)
     - [Permutation](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/Permutation.java)
