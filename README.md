@@ -36,8 +36,6 @@
     - [Word Ladder](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/graph/WordLadder.java)
     - [Word Search](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/graph/WordSearch.java)
     - [Remove Invalid Parentheses](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/graph/RemoveInvalidParentheses.java)
-    - [The Maze_BFS](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/graph/Maze1_bfs.java)
-    - [The Maze_DFS](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/graph/Maze1_dfs.java)
     - [Course Schedule](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/graph/CourseSchedule.java)
 - Dynamic Programming
     - [Unique Paths](https://github.com/hmkim829/Algorithm/blob/master/src/leetcode_inflearn/dynamic/UniquePath.java)
