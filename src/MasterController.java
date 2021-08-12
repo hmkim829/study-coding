@@ -5,5 +5,9 @@ public class MasterController {
 
     public void mama(){
         System.out.println("dddd");
+
+        System.out.println("dddd");
+        System.out.println("dddd");
+        System.out.println("dddd");
     }
 }
