@@ -15,6 +15,8 @@ public class UniqueEmailAddresses {
 
         UniqueEmailAddresses uea = new UniqueEmailAddresses();
         System.out.println(uea.numUniqueEmails(emails));
+        System.out.println(uea.solve1(emails));
+        System.out.println(uea.solve2(emails));
     }
 
     public int numUniqueEmails(String[] emails) {
@@ -34,5 +36,58 @@ public class UniqueEmailAddresses {
         }
 
         return set.size();
+    }
+
+    public int solve1(String[] emails) {
+
+        Set<String> set = new HashSet<String>();
+
+        for(String email : emails){
+
+            String localName = makeLocalName(email);
+            String domainName = makeDomainName(email);
+
+            set.add(localName + "@" + domainName);
+        }
+
+        return set.size();
+    }
+
+    public int solve2(String[] emails) {
+
+        Set<String> set = new HashSet<String>();
+
+        for(String email : emails){
+
+            String[] parts = email.split("@");
+            String[] localName = parts[0].split("\\+");
+            set.add(localName[0].replace(".", "") + "@" + parts[1]);
+        }
+
+        return set.size();
+    }
+
+    private String makeDomainName(String email) {
+        return email.substring(email.indexOf("@"));
+    }
+
+    private String makeLocalName(String email) {
+
+        StringBuilder sb = new StringBuilder();
+
+        for(int i=0;i<email.length();i++){
+
+            if(email.charAt(i) == '.'){
+                continue;
+            }
+
+            if(email.charAt(i) == '+' || email.charAt(i) == '+'){
+                break;
+            }
+
+            sb.append(email.charAt(i));
+        }
+
+        return sb.toString();
     }
 }
