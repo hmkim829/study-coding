@@ -1,4 +1,4 @@
-package leetcode.stringArray;
+package leetcode.chapter01string;
 
 // 42. Trapping Rain Water
 // https://leetcode.com/problems/trapping-rain-water/

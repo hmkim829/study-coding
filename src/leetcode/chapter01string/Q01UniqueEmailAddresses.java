@@ -1,11 +1,11 @@
-package leetcode.stringArray;
+package leetcode.chapter01string;
 
 import java.util.HashSet;
 import java.util.Set;
 
 // 929. Unique Email Addresses
 // https://leetcode.com/problems/unique-email-addresses/
-public class UniqueEmailAddresses {
+public class Q01UniqueEmailAddresses {
 
     public static void main(String[] args) {
 
@@ -13,7 +13,7 @@ public class UniqueEmailAddresses {
 //        String[] emails = {"testemail@leetcode.com","testemail1@leetcode.com","testemail+david@lee.tcode.com"};
         String[] emails = {"test.email+alex@leetcode.com","test.email.leet+alex@code.com"};
 
-        UniqueEmailAddresses uea = new UniqueEmailAddresses();
+        Q01UniqueEmailAddresses uea = new Q01UniqueEmailAddresses();
         System.out.println(uea.numUniqueEmails(emails));
         System.out.println(uea.solve1(emails));
         System.out.println(uea.solve2(emails));

@@ -1,4 +1,4 @@
-package leetcode.stringArray;
+package leetcode.chapter01string;
 
 //482. License Key Formatting
 //https://leetcode.com/problems/license-key-formatting/
