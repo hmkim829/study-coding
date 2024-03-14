@@ -14,31 +14,33 @@ public class Q01UniqueEmailAddresses {
         String[] emails = {"test.email+alex@leetcode.com","test.email.leet+alex@code.com"};
 
         Q01UniqueEmailAddresses uea = new Q01UniqueEmailAddresses();
-        System.out.println(uea.numUniqueEmails(emails));
-        System.out.println(uea.solve1(emails));
-        System.out.println(uea.solve2(emails));
+        System.out.println(uea.mySolve(emails));
+        System.out.println(uea.solve(emails));
     }
 
-    public int numUniqueEmails(String[] emails) {
+    // 24.02.28 풀이
+    public int mySolve(String[] emails) {
 
-        Set<String> set = new HashSet<String>();
+        Set<String> emailSet = new HashSet<>();
 
         for(String email : emails){
+            String[] splitEmail = email.split("@");
+            String localName = splitEmail[0];
+            String domain = splitEmail[1];
 
-            String[] tmp = email.split("@");
+            if(localName.indexOf(".") > -1) {
+                localName = localName.replace(".", "");
+            }
 
-            String local = tmp[0].replace(".", "");
-
-            if(local.indexOf("+") > 0)
-                local = local.substring(0, local.indexOf("+"));
-
-            set.add(local+ "@" +tmp[1]);
+            if(localName.indexOf("+") > -1) {
+                localName = localName.substring(0,localName.indexOf("+"));
+            }
+            emailSet.add(localName+"@"+domain);
         }
-
-        return set.size();
+        return emailSet.size();
     }
 
-    public int solve1(String[] emails) {
+    public int solve(String[] emails) {
 
         Set<String> set = new HashSet<String>();
 
@@ -48,20 +50,6 @@ public class Q01UniqueEmailAddresses {
             String domainName = makeDomainName(email);
 
             set.add(localName + "@" + domainName);
-        }
-
-        return set.size();
-    }
-
-    public int solve2(String[] emails) {
-
-        Set<String> set = new HashSet<String>();
-
-        for(String email : emails){
-
-            String[] parts = email.split("@");
-            String[] localName = parts[0].split("\\+");
-            set.add(localName[0].replace(".", "") + "@" + parts[1]);
         }
 
         return set.size();
