@@ -2,46 +2,46 @@
 
 ### leetcode
 - String & Array
-    - [Unique Email Addresses](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/stringArray/UniqueEmailAddresses.java)
+    - [Unique Email Addresses](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter01string/Q01UniqueEmailAddresses.java)
     - [Jewels And Stones](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/stringArray/JewelsAndStones.java)
-    - [Move Zeros](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/stringArray/MoveZeros.java)
-    - [Two Sum](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/stringArray/TwoSum.java)
-    - [Daily Temperatures](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/stringArray/DailyTemperatures.java)
-    - [Merge Intervals](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/stringArray/MergeIntervals.java)
-    - [LicenseKey Formatting](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/stringArray/LicenseKeyFormatting.java)
-    - [K Closest Points to Origin](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/stringArray/KClosestPoint.java)
-    - [Plus One](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/stringArray/PlusOne.java)
-    - [Maximum Subarray](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/stringArray/MaxSubArray.java)
-    - [Find All Anagrams in a String](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/stringArray/FindAllAnagrams.java)
-    - [Spiral Matrix](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/stringArray/SpiralMatrix.java)
-    - [Group Anagrams](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/stringArray/GroupAnagrams.java)
-    - [Trapping Rain Water](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/stringArray/TrappingRainWater.java)
-    - [Kth Largest Element in an Array](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/stringArray/KthLargestElement.java)
+    - [LicenseKey Formatting](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter01string/Q03LicenseKeyFormatting.java)
+    - Move Zeros
+    - Two Sum
+    - Daily Temperatures
+    - Merge Intervals
+    - K Closest Points to Origin
+    - Plus One
+    - Maximum Subarray
+    - Find All Anagrams in a String
+    - Spiral Matrix
+    - Group Anagrams
+    - Trapping Rain Water
+    - Kth Largest Element in an Array
 - LinkedList
-    - [Add Two Numbers](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/linkedList/AddTwoNumbers.java)
-    - [Merge k Sorted Lists](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/linkedList/MergeKSortedList.java)
+    - Add Two Numbers
+    - Merge k Sorted Lists
 - Queue&Stack
-    - [Baseball Game](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/queueStack/BaseballGame.java)
-    - [Valid Parentheses](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/queueStack/ValidParentheses.java)
-    - [Binary Tree Level Order Traversal](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/queueStack/BinaryTreeLevelOrderTraversal.java)
+    - Baseball Game
+    - Valid Parentheses
+    - Binary Tree Level Order Traversal
 - Graph(dfs & bfs)
-    - [Number of Islands DFS](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/graph/NumberOfIsland_dfs.java)
-    - [Number of Islands BFS](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/graph/NumberOfIsland_bfs.java)
-    - [Maximum Depth of Binary Tree RECUR](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/graph/MaxDepth_recur.java)
-    - [Maximum Depth of Binary Tree DFS](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/graph/MaxDepth_dfs.java)
-    - [Maximum Depth of Binary Tree BFS](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/graph/MaxDepth_bfs.java)
-    - [Max Area of Island](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/graph/MaxAreaOfIslands.java)
-    - [Word Ladder](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/graph/WordLadder.java)
-    - [Word Search](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/graph/WordSearch.java)
-    - [Remove Invalid Parentheses](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/graph/RemoveInvalidParentheses.java)
-    - [Course Schedule](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/graph/CourseSchedule.java)
+    - Number of Islands DFS
+    - Number of Islands BFS
+    - Maximum Depth of Binary Tree RECUR
+    - Maximum Depth of Binary Tree DFS
+    - Maximum Depth of Binary Tree BFS
+    - Max Area of Island
+    - Word Ladder
+    - Word Search
+    - Remove Invalid Parentheses
+    - Course Schedule
 - Dynamic Programming
-    - [Unique Paths](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/dynamic/UniquePath.java)
-    - [Coin Change](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/dynamic/CoinChange.java)
-    - [Climbing Stairs](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/dynamic/ClimbStairs.java)
-    - [Longest Increasing Subsequence](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/dynamic/LongestIncreasingSubsequence.java)
+    - Unique Paths
+    - Coin Change
+    - Climbing Stairs
+    - Longest Increasing Subsequence
 - BackTracking
-    - [Generate Parentheses](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/backtracking/GenerateParentheses.java)
-    - [Permutation](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/backtracking/Permutation.java)
-    - [Subsets](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/backtracking/Subsets.java)
-    - [Letter Combinations of a Phone Number](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/backtracking/LetterCombinationPhone.java)
+    - Generate Parentheses
+    - Permutation
+    - Subsets
+    - Letter Combinations of a Phone Number
