@@ -1,16 +1,16 @@
 # algorithm 문제풀이
 
 ### leetcode
-- String & Array
+- Chapter 01. ``String``
     - [Unique Email Addresses](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter01string/Q01UniqueEmailAddresses.java)
     - [Jewels And Stones](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/stringArray/JewelsAndStones.java)
     - [LicenseKey Formatting](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter01string/Q03LicenseKeyFormatting.java)
+    - [Plus One](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter01string/Q04PlusOne.java)
     - Move Zeros
     - Two Sum
     - Daily Temperatures
     - Merge Intervals
     - K Closest Points to Origin
-    - Plus One
     - Maximum Subarray
     - Find All Anagrams in a String
     - Spiral Matrix

@@ -4,15 +4,15 @@ import java.util.Arrays;
 
 // 66. Plus One
 // https://leetcode.com/problems/plus-one/
-public class PlusOne {
+public class Q04PlusOne {
 
     public static void main(String[] args) {
 
 //        int[] digits = {1,2,3};
         int[] digits = {9,9,9};
 
-        PlusOne plusOne = new PlusOne();
-        System.out.println(Arrays.toString(plusOne.plusOne(digits)));
+        Q04PlusOne q04PlusOne = new Q04PlusOne();
+        System.out.println(Arrays.toString(q04PlusOne.plusOne(digits)));
     }
 
     public int[] plusOne(int[] digits) {
