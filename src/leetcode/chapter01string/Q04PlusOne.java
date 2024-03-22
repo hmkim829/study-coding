@@ -1,6 +1,7 @@
 package leetcode.chapter01string;
 
 import java.util.Arrays;
+import java.util.Stack;
 
 // 66. Plus One
 // https://leetcode.com/problems/plus-one/
@@ -8,33 +9,45 @@ public class Q04PlusOne {
 
     public static void main(String[] args) {
 
-//        int[] digits = {1,2,3};
-        int[] digits = {9,9,9};
+        int[] digits1 = {1,2,3};
+        int[] digits2 = {9,9,9};
 
         Q04PlusOne q04PlusOne = new Q04PlusOne();
-        System.out.println(Arrays.toString(q04PlusOne.plusOne(digits)));
+        System.out.println(Arrays.toString(q04PlusOne.mySolve(digits1)));
+        System.out.println(Arrays.toString(q04PlusOne.mySolve(digits2)));
     }
 
+    // 2024-03-22 풀이
     public int[] plusOne(int[] digits) {
+        return null;
+    }
 
-        int index = digits.length - 1;
-        int carry = 1;
+    // 2024-03-22 풀이
+    public int[] mySolve(int[] digits) {
 
-        while(index > -1 && carry > 0){
-            digits[index] = (digits[index] + 1) % 10;
-            if(digits[index] == 0){
-                carry = 1;
-            }else{
-                carry = 0;
-            }
-            index--;
+        Stack<Integer> stack = new Stack<>();
+
+        digits[digits.length-1] += 1;
+
+        int raisedValue = 0;
+        for(int i=digits.length-1;i>=0;i--) {
+            int sum = digits[i] + raisedValue;
+            int share = sum / 10;
+            int reminder = sum % 10;
+
+            stack.push(reminder);
+            raisedValue = Math.max(share, 0);
         }
 
-        if(carry == 1){
-            digits = new int[digits.length+1];
-            digits[0] = 1;
+        if(raisedValue > 0) {
+            stack.push(raisedValue);
         }
 
-        return digits;
+        int[] result = new int[stack.size()];
+        for (int i=0;i<result.length;i++) {
+            result[i] = stack.pop();
+        }
+
+        return result;
     }
 }
