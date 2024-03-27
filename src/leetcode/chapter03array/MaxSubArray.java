@@ -1,4 +1,4 @@
-package leetcode.chapter01string;
+package leetcode.chapter03array;
 
 // 53. Maximum Subarray
 // https://leetcode.com/problems/maximum-subarray/

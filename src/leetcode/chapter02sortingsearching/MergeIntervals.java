@@ -1,4 +1,4 @@
-package leetcode.chapter01string;
+package leetcode.chapter02sortingsearching;
 
 import java.util.ArrayList;
 import java.util.Arrays;

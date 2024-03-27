@@ -1,4 +1,4 @@
-package leetcode.chapter01string;
+package leetcode.chapter03array;
 
 import java.util.*;
 
