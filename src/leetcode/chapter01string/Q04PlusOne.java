@@ -11,15 +11,35 @@ public class Q04PlusOne {
 
         int[] digits1 = {1,2,3};
         int[] digits2 = {9,9,9};
+        int[] digits3 = {1,2,3};
+        int[] digits4 = {9,9,9};
+        int[] digits5 = {8,9,9,9};
 
         Q04PlusOne q04PlusOne = new Q04PlusOne();
         System.out.println(Arrays.toString(q04PlusOne.mySolve(digits1)));
         System.out.println(Arrays.toString(q04PlusOne.mySolve(digits2)));
+
+        System.out.println(Arrays.toString(q04PlusOne.plusOne(digits3)));
+        System.out.println(Arrays.toString(q04PlusOne.plusOne(digits4)));
+        System.out.println(Arrays.toString(q04PlusOne.plusOne(digits5)));
     }
 
-    // 2024-03-22 풀이
     public int[] plusOne(int[] digits) {
-        return null;
+
+        int length = digits.length;
+
+        for(int i=length-1;i>=0;i--) {
+            digits[i]++;
+            if(digits[i] < 10) {
+                return digits;
+            }
+            digits[i] = 0;
+        }
+
+        int[] result = new int[length+1];
+        result[0] = 1;
+
+        return result;
     }
 
     // 2024-03-22 풀이
