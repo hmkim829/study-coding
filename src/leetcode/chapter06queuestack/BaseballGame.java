@@ -1,4 +1,4 @@
-package leetcode.queueStack;
+package leetcode.chapter06queuestack;
 
 import java.util.Stack;
 

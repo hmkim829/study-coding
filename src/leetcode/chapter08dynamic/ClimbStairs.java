@@ -1,4 +1,4 @@
-package leetcode.dynamic;
+package leetcode.chapter08dynamic;
 
 // 70. Climbing Stairs
 // https://leetcode.com/problems/climbing-stairs/

@@ -1,4 +1,4 @@
-package leetcode.dynamic;
+package leetcode.chapter08dynamic;
 
 import java.util.Arrays;
 

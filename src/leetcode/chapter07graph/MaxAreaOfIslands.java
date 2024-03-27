@@ -1,4 +1,4 @@
-package leetcode.graph;
+package leetcode.chapter07graph;
 
 // 695. Max Area of Island
 // https://leetcode.com/problems/max-area-of-island/

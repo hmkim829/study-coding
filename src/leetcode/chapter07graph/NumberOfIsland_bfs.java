@@ -1,4 +1,4 @@
-package leetcode.graph;
+package leetcode.chapter07graph;
 
 import java.util.LinkedList;
 import java.util.Queue;

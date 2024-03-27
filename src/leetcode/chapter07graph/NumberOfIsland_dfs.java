@@ -1,4 +1,4 @@
-package leetcode.graph;
+package leetcode.chapter07graph;
 
 // 200. Number of Islands
 // https://leetcode.com/problems/number-of-islands/

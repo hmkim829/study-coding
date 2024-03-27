@@ -1,4 +1,4 @@
-package leetcode.chapter01string;
+package leetcode.chapter04twopoint;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package leetcode.dynamic;
+package leetcode.chapter08dynamic;
 
 // 62. Unique Paths
 // https://leetcode.com/problems/unique-paths/

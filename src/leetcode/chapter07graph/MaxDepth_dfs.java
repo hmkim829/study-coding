@@ -1,4 +1,4 @@
-package leetcode.graph;
+package leetcode.chapter07graph;
 
 import util.TreeNode;
 
