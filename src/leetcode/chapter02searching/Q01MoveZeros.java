@@ -1,14 +1,20 @@
-package leetcode.chapter02sortingsearching;
+package leetcode.chapter02searching;
 
 import java.util.Arrays;
 
 // 283. Move Zeroes
 // https://leetcode.com/problems/move-zeroes/
-public class MoveZeros {
+public class Q01MoveZeros {
 
     public static void main(String[] args) {
 
         int[] nums = {0,3,2,0,8,5};
+
+        Q01MoveZeros problem = new Q01MoveZeros();
+        problem.moveZeroes(nums);
+    }
+
+    public void moveZeroes(int[] nums) {
 
         // 1. 0이 아닌 수를 앞으로 옮긴다.
         int index = 0;
