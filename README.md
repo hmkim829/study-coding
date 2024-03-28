@@ -3,45 +3,8 @@
 ### leetcode
 - Chapter 01. ``String``
     - [Unique Email Addresses](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter01string/Q01UniqueEmailAddresses.java)
-    - [Jewels And Stones](https://github.com/hmkim829/algorithm/blob/master/src/leetcode/stringArray/JewelsAndStones.java)
+    - [Jewels And Stones](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter01string/Q02JewelsAndStones.java)
     - [LicenseKey Formatting](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter01string/Q03LicenseKeyFormatting.java)
     - [Plus One](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter01string/Q04PlusOne.java)
-    - Move Zeros
-    - Two Sum
-    - Daily Temperatures
-    - Merge Intervals
-    - K Closest Points to Origin
-    - Maximum Subarray
-    - Find All Anagrams in a String
-    - Spiral Matrix
-    - Group Anagrams
-    - Trapping Rain Water
-    - Kth Largest Element in an Array
-- LinkedList
-    - Add Two Numbers
-    - Merge k Sorted Lists
-- Queue&Stack
-    - Baseball Game
-    - Valid Parentheses
-    - Binary Tree Level Order Traversal
-- Graph(dfs & bfs)
-    - Number of Islands DFS
-    - Number of Islands BFS
-    - Maximum Depth of Binary Tree RECUR
-    - Maximum Depth of Binary Tree DFS
-    - Maximum Depth of Binary Tree BFS
-    - Max Area of Island
-    - Word Ladder
-    - Word Search
-    - Remove Invalid Parentheses
-    - Course Schedule
-- Dynamic Programming
-    - Unique Paths
-    - Coin Change
-    - Climbing Stairs
-    - Longest Increasing Subsequence
-- BackTracking
-    - Generate Parentheses
-    - Permutation
-    - Subsets
-    - Letter Combinations of a Phone Number
+- Chapter 02. ``Searching``
+    - [Move Zeros](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter02searching/Q01MoveZeros.java)
