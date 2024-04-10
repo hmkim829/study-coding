@@ -4,29 +4,30 @@ import java.util.*;
 
 // 973. K Closest Points to Origin
 // https://leetcode.com/problems/k-closest-points-to-origin/
-public class KClosestPoint {
+public class Q03KClosestPoint {
 
     public static void main(String[] args) {
 
         int[][] points = {{1,3},{-2,2}};
         int K = 1;
 
-        KClosestPoint kcp = new KClosestPoint();
+        Q03KClosestPoint kcp = new Q03KClosestPoint();
         print(kcp.kClosest(points, K));
     }
 
-    public int[][] kClosest(int[][] points, int K) {
+    public int[][] kClosest(int[][] points, int k) {
 
-        int[][] result = new int[K][2];
-        Queue<int[]> queue = new PriorityQueue<int[]>(points.length,
+        int[][] result = new int[k][2];
+        Queue<int[]> queue = new PriorityQueue<>(points.length,
                 (a,b)-> ((a[0]*a[0])+(a[1]*a[1])) - ((b[0]*b[0])+(b[1]*b[1])));
 
         for(int[] point : points){
             queue.offer(point);
         }
 
-        for(int i=0;i<K;i++){
-            result[i] = queue.poll();
+        int index = 0;
+        while(index < k){
+            result[index++] = queue.poll();
         }
 
         return result;
