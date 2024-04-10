@@ -4,14 +4,14 @@ import java.util.*;
 
 // 973. K Closest Points to Origin
 // https://leetcode.com/problems/k-closest-points-to-origin/
-public class Q03KClosestPoint {
+public class Q07KClosestPoint {
 
     public static void main(String[] args) {
 
         int[][] points = {{1,3},{-2,2}};
         int K = 1;
 
-        Q03KClosestPoint kcp = new Q03KClosestPoint();
+        Q07KClosestPoint kcp = new Q07KClosestPoint();
         print(kcp.kClosest(points, K));
     }
 

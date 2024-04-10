@@ -4,13 +4,13 @@ import java.util.Arrays;
 
 // 283. Move Zeroes
 // https://leetcode.com/problems/move-zeroes/
-public class Q01MoveZeros {
+public class Q05MoveZeros {
 
     public static void main(String[] args) {
 
         int[] nums = {0,3,2,0,8,5};
 
-        Q01MoveZeros problem = new Q01MoveZeros();
+        Q05MoveZeros problem = new Q05MoveZeros();
         problem.moveZeroes(nums);
     }
 

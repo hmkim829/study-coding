@@ -6,14 +6,14 @@ import java.util.List;
 
 // 56. Merge Intervals
 // https://leetcode.com/problems/merge-intervals/
-public class MergeIntervals {
+public class Q10MergeIntervals {
 
     public static void main(String[] args) {
 
         //int[][] intervals = {{2,6},{8,10},{1,3},{15,18}};
         int[][] intervals = {{1,4},{4,5}};
 
-        MergeIntervals mi = new MergeIntervals();
+        Q10MergeIntervals mi = new Q10MergeIntervals();
         print(mi.merge(intervals));
     }
 
