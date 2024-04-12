@@ -5,13 +5,13 @@ import java.util.Stack;
 
 // 739. Daily Temperatures
 // https://leetcode.com/problems/daily-temperatures/
-public class DailyTemperatures {
+public class Q12DailyTemperatures {
 
     public static void main(String[] args) {
 
         int[] T = {73, 74, 75, 71, 69, 72, 76, 73};
 
-        DailyTemperatures dt = new DailyTemperatures();
+        Q12DailyTemperatures dt = new Q12DailyTemperatures();
         System.out.println(Arrays.toString(dt.dailyTemperatures(T)));
     }
 

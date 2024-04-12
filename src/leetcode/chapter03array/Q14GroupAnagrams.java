@@ -4,7 +4,7 @@ import java.util.*;
 
 // 49. Group Anagrams
 // https://leetcode.com/problems/group-anagrams/
-public class GroupAnagrams {
+public class Q14GroupAnagrams {
 
     public static void main(String[] args) {
         String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};

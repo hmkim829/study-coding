@@ -7,14 +7,14 @@ import java.util.Map;
 
 // 1. Two Sum
 // https://leetcode.com/problems/two-sum/
-public class TwoSum {
+public class Q11TwoSum {
 
     public static void main(String[] args) {
 
         int[] nums = {2,8,10,21};
         int target = 10;
 
-        TwoSum a = new TwoSum();
+        Q11TwoSum a = new Q11TwoSum();
         int[] result = a.solve(nums,target);
 
         System.out.println(Arrays.toString(result));
