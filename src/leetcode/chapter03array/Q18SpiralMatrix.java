@@ -5,7 +5,7 @@ import java.util.List;
 
 // 54. Spiral Matrix
 // https://leetcode.com/problems/spiral-matrix/
-public class Q17SpiralMatrix {
+public class Q18SpiralMatrix {
 
     public static void main(String[] args) {
 

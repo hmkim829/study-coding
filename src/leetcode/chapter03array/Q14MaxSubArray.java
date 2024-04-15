@@ -2,12 +2,12 @@ package leetcode.chapter03array;
 
 // 53. Maximum Subarray
 // https://leetcode.com/problems/maximum-subarray/
-public class Q13MaxSubArray {
+public class Q14MaxSubArray {
 
     public static void main(String[] args) {
 
         int[] nums = {-2,1,-3,4,-1,2,1,-5,4};
-        Q13MaxSubArray sol = new Q13MaxSubArray();
+        Q14MaxSubArray sol = new Q14MaxSubArray();
         System.out.println(sol.maxSubArray(nums));
     }
 

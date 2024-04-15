@@ -2,12 +2,12 @@ package leetcode.chapter03array;
 
 // 42. Trapping Rain Water
 // https://leetcode.com/problems/trapping-rain-water/
-public class Q15TrappingRainWater {
+public class Q16TrappingRainWater {
 
     public static void main(String[] args) {
 
         int[] height = {0,1,0,2,1,0,1,3,2,1,2,1};
-        Q15TrappingRainWater sol = new Q15TrappingRainWater();
+        Q16TrappingRainWater sol = new Q16TrappingRainWater();
         System.out.println(sol.trap(height));
     }
 
