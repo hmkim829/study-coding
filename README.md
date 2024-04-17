@@ -15,4 +15,5 @@
     - [Merge Intervals](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter02searching/Q10MergeIntervals.java)
     - [Reorder Data in Log Files](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter02searching/Q11ReorderDataLogFiles)
 - Chapter 03. ``Array``
-    - [Two Sum](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter02searching/Q12TwoSum) 
+    - [Two Sum](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter02searching/Q12TwoSum)
+    - [Daily Temperatures](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter02searching/Q13DailyTemperatures)

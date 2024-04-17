@@ -15,14 +15,13 @@ public class Q13DailyTemperatures {
         System.out.println(Arrays.toString(dt.dailyTemperatures(T)));
     }
 
-    public int[] dailyTemperatures(int[] T) {
+    public int[] dailyTemperatures(int[] temperatures) {
 
-        Stack<Integer> stack = new Stack<Integer>();
-        int[] result = new int[T.length];
+        Stack<Integer> stack = new Stack<>();
+        int[] result = new int[temperatures.length];
 
-        for(int i=0;i<T.length;i++){
-
-            while(!stack.empty() && T[stack.peek()] < T[i]){
+        for(int i=0;i<temperatures.length;i++){
+            while(!stack.empty() && temperatures[stack.peek()] < temperatures[i]){
                 int index = stack.pop();
                 result[index] = i-index;
             }
