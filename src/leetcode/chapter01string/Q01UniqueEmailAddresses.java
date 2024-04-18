@@ -9,25 +9,21 @@ public class Q01UniqueEmailAddresses {
 
     public static void main(String[] args) {
 
-//        String[] emails = {"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"};
+        String[] emails = {"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"};
 //        String[] emails = {"testemail@leetcode.com","testemail1@leetcode.com","testemail+david@lee.tcode.com"};
-        String[] emails = {"test.email+alex@leetcode.com","test.email.leet+alex@code.com"};
+//        String[] emails = {"test.email+alex@leetcode.com","test.email.leet+alex@code.com"};
 
         Q01UniqueEmailAddresses uea = new Q01UniqueEmailAddresses();
-        System.out.println(uea.solve(emails));
+        System.out.println(uea.numUniqueEmails(emails));
     }
 
-    public int solve(String[] emails) {
-
+    public int numUniqueEmails(String[] emails) {
         Set<String> set = new HashSet<>();
-
         for(String email : emails){
             String localName = makeLocalName(email);
             String domainName = makeDomainName(email);
-
             set.add(localName + "@" + domainName);
         }
-
         return set.size();
     }
 
@@ -36,18 +32,11 @@ public class Q01UniqueEmailAddresses {
     }
 
     private String makeLocalName(String email) {
-
         StringBuilder sb = new StringBuilder();
 
         for(int i=0;i<email.length();i++){
-
-            if(email.charAt(i) == '.'){
-                continue;
-            }
-
-            if(email.charAt(i) == '+'){
-                break;
-            }
+            if(email.charAt(i) == '.') continue;
+            if(email.charAt(i) == '+') break;
 
             sb.append(email.charAt(i));
         }

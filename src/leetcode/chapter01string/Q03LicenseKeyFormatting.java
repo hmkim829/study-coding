@@ -1,7 +1,7 @@
 package leetcode.chapter01string;
 
-//482. License Key Formatting
-//https://leetcode.com/problems/license-key-formatting/
+// 482. License Key Formatting
+// https://leetcode.com/problems/license-key-formatting/
 public class Q03LicenseKeyFormatting {
 
     public static void main(String[] args) {

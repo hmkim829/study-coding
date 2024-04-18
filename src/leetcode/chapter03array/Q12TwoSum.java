@@ -15,12 +15,12 @@ public class Q12TwoSum {
         int target = 10;
 
         Q12TwoSum a = new Q12TwoSum();
-        int[] result = a.solve(nums,target);
+        int[] result = a.twoSum(nums,target);
 
         System.out.println(Arrays.toString(result));
     }
 
-    private int[] solve(int[] nums, int target) {
+    public int[] twoSum(int[] nums, int target) {
 
         Map<Integer, Integer> map = new HashMap<>();
         int[] result = new int[2];
