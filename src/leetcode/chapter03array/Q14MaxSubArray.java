@@ -13,14 +13,14 @@ public class Q14MaxSubArray {
 
     public int maxSubArray(int[] nums) {
 
-        int newSum = nums[0];
-        int max = nums[0];
+        int curSum = nums[0];
+        int maxSum = nums[0];
 
         for(int i=1;i<nums.length;i++){
-            newSum = Math.max(newSum + nums[i], nums[i]);
-            max = Math.max(newSum, max);
+            curSum = Math.max(curSum + nums[i], nums[i]);
+            maxSum = Math.max(curSum, maxSum);
         }
 
-        return max;
+        return maxSum;
     }
 }
