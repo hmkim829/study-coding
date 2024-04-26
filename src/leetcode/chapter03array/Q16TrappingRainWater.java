@@ -13,37 +13,32 @@ public class Q16TrappingRainWater {
 
     public int trap(int[] height) {
 
-        int result = 0;
-
+        int answer = 0;
         int[] left = new int[height.length];
         int[] right = new int[height.length];
+        int max = Integer.MIN_VALUE;
 
         // left
-        int max = Integer.MIN_VALUE;
-        for(int i=0;i<height.length;i++){
+        for(int i=0; i<height.length; i++){
             if(max < height[i]){
-                left[i] = height[i];
                 max = height[i];
-            }else{
-                left[i] = max;
             }
+            left[i] = max;
         }
 
         // right
         max = Integer.MIN_VALUE;
-        for(int i=height.length-1;i>=0;i--){
+        for(int i=height.length-1; i>=0; i--){
             if(max < height[i]){
-                right[i] = height[i];
                 max = height[i];
-            }else{
-                right[i] = max;
             }
+            right[i] = max;
         }
 
-        for(int i=0;i<height.length;i++){
-            result += Math.min(left[i], right[i]) - height[i];
+        for(int i=0; i<height.length; i++){
+            answer += Math.min(left[i], right[i]) - height[i];
         }
 
-        return result;
+        return answer;
     }
 }
