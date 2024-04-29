@@ -16,8 +16,9 @@
 11. [Reorder Data in Log Files](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter02searching/Q11ReorderDataLogFiles)
 
 ### Chapter 03. ``Array``
-12. [Two Sum](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter02searching/Q12TwoSum)
-13. [Daily Temperatures](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter02searching/Q13DailyTemperatures)
-14. [Maximum Subarray](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter02searching/Q14MaxSubArray)
-15. [Group Anagrams](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter02searching/Q15GroupAnagrams)
-16. [Trapping Rain Water](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter02searching/Q16TrappingRainWater)
+12. [Two Sum](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter03array/Q12TwoSum)
+13. [Daily Temperatures](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter03array/Q13DailyTemperatures)
+14. [Maximum Subarray](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter03array/Q14MaxSubArray)
+15. [Group Anagrams](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter03array/Q15GroupAnagrams)
+16. [Trapping Rain Water](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter03array/Q16TrappingRainWater)
+17. [Missing Ranges](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter03array/Q17MissingRanges)
