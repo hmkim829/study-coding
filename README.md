@@ -10,7 +10,7 @@
 5. [Move Zeros](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter02searching/Q01MoveZeros.java)
 6. [Kth Largest Element in an Array](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter02searching/Q06KthLargestElement.java)
 7. [K Closest Points to Origin](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter02searching/Q07KClosestPoint.java)
-8. [Meeting Room](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter02searching/Q08MeetingRoom.java
+8. [Meeting Room](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter02searching/Q08MeetingRoom.java)
 9. [Meeting Room2](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter02searching/Q09MeetingRoom2.java)
 10. [Merge Intervals](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter02searching/Q10MergeIntervals.java)
 11. [Reorder Data in Log Files](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter02searching/Q11ReorderDataLogFiles.java)
