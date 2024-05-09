@@ -38,18 +38,21 @@ public class Q18SpiralMatrix {
             colEnd--;
 
             // left
-            if(rowStart <= rowEnd)
+            if(rowStart <= rowEnd) {
                 for (int i = colEnd; i >= colStart; i--) {
                     result.add(matrix[rowEnd][i]);
                 }
                 rowEnd--;
+            }
+
 
             // up
-            if(colStart <= colEnd)
+            if(colStart <= colEnd) {
                 for (int i = rowEnd; i >= rowStart; i--) {
                     result.add(matrix[i][colStart]);
                 }
                 colStart++;
+            }
         }
 
         return result;
