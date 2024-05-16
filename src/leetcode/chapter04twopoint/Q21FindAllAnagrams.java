@@ -6,14 +6,14 @@ import java.util.List;
 
 // 438. Find All Anagrams in a String
 // https://leetcode.com/problems/find-all-anagrams-in-a-string/
-public class FindAllAnagrams {
+public class Q21FindAllAnagrams {
 
     public static void main(String[] args) {
 
         String s = "cbaebabacd";
         String p = "abc";
 
-        FindAllAnagrams sol = new FindAllAnagrams();
+        Q21FindAllAnagrams sol = new Q21FindAllAnagrams();
         System.out.println(sol.findAnagrams(s,p).toString());
     }
 
