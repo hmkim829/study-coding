@@ -5,7 +5,7 @@ import java.util.Queue;
 
 // 200. Number of Islands
 // https://leetcode.com/problems/number-of-islands/
-public class NumberOfIsland_bfs {
+public class NumberOfIslandBfs {
     public static void main(String[] args) {
 
         char[][] grid = {
@@ -14,7 +14,7 @@ public class NumberOfIsland_bfs {
                 {'1','1','0','0','0'},
                 {'0','0','0','0','0'}
         };
-        NumberOfIsland_dfs sol = new NumberOfIsland_dfs();
+        NumberOfIslandDfs sol = new NumberOfIslandDfs();
         System.out.println(sol.numsIslands(grid));
     }
 

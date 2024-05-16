@@ -2,7 +2,7 @@ package leetcode.chapter07graph;
 
 // 200. Number of Islands
 // https://leetcode.com/problems/number-of-islands/
-public class NumberOfIsland_dfs {
+public class NumberOfIslandDfs {
 
     public static void main(String[] args) {
 
@@ -12,7 +12,7 @@ public class NumberOfIsland_dfs {
                 {'1','1','0','0','0'},
                 {'0','0','0','0','0'}
         };
-        NumberOfIsland_dfs sol = new NumberOfIsland_dfs();
+        NumberOfIslandDfs sol = new NumberOfIslandDfs();
         System.out.println(sol.numsIslands(grid));
     }
 
@@ -33,7 +33,13 @@ public class NumberOfIsland_dfs {
 
     public void dfs(int i, int j, char[][] grid){
 
-        if( i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || grid[i][j] != '1'){
+        // 경계값
+        if( i < 0 || i >= grid.length || j < 0 || j >= grid[0].length){
+            return;
+        }
+
+        // 방문한 곳
+        if(grid[i][j] != '1'){
             return;
         }
 
