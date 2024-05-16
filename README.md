@@ -28,5 +28,5 @@
 19. [Longest Substring Without Repeating Characters](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter04twopoint/Q19LongestSubstringWithoutRepeatingCharacters.java)
 
 ### Chapter 04. ``Graph``
-[Number Of Island Dfs](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter07graph/NumberOfIslandDfs.java)
-[Number Of Island Bfs](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter07graph/NumberOfIslandBfs.java)
+[Number Of Island DFS](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter07graph/NumberOfIslandDfs.java)  
+[Number Of Island BFS](https://github.com/hmkim829/study-coding/blob/master/src/leetcode/chapter07graph/NumberOfIslandBfs.java)
