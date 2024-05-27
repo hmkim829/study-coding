@@ -15,6 +15,7 @@ public class Q21FindAllAnagrams {
 
         Q21FindAllAnagrams sol = new Q21FindAllAnagrams();
         System.out.println(sol.findAnagrams(s,p).toString());
+        System.out.println(sol.findAnagrams2(s, p).toString());
     }
 
     public List<Integer> findAnagrams(String s, String p) {
@@ -38,5 +39,39 @@ public class Q21FindAllAnagrams {
         char[] modP = str.toCharArray();
         Arrays.sort(modP);
         return String.valueOf(modP);
+    }
+
+    public List<Integer> findAnagrams2(String s, String p) {
+
+        List<Integer> result = new ArrayList<>();
+
+        int[] pArr = new int[26];
+        for(int i=0;i<p.length();i++) {
+            pArr[p.charAt(i) - 'a']++;
+        }
+
+        for(int i=0;i<=s.length()-p.length();i++) {
+            int[] sArr = new int[26];
+            for(int j=0;j<p.length();j++) {
+                sArr[s.charAt(i+j) - 'a']++;
+            }
+
+            if(checkArr(sArr, pArr)) {
+                result.add(i);
+            }
+        }
+
+        return result;
+    }
+
+    private boolean checkArr(int[] sArr, int[] pArr) {
+
+        for(int i=0;i<sArr.length;i++) {
+            if(sArr[i] != pArr[i]) {
+                return false;
+            }
+        }
+
+        return true;
     }
 }
